@@ -1,0 +1,7 @@
+<?php 
+
+$dbconn = pg_connect("host=db.qgiscloud.com port=5432 dbname=daqznt_tbcceo user=daqznt_tbcceo password=de3ffb08");
+
+$res = pg_delete($dbconn, 'post_log', $_POST, PG_DML_ESCAPE);
+
+?>
