@@ -1,0 +1,130 @@
+
+
+body, html, #map { height: 100%;
+width: 100%; }
+/* html, body{
+	margin: 0;
+	background-color: #d3e3d1;
+	color: #696969;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 10pt;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+#map{
+	position: relative;
+	left: 100px;
+	right: 100px;
+	height: 100%;
+	border-left: 1px solid 63875e;
+	border-right: 1px solid 63875e;
+	overflow: hidden;
+	z-index: 1;
+} */
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background: #2c3e50;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 0px;
+  }
+  .custom-popup .leaflet-popup-content-wrapper a {
+    color: #2c3e50;
+  }
+  .custom-popup .leaflet-popup-tip-container {
+    background: None;
+    width: 30px;
+    height: 15px;
+  }
+  .custom-popup .leaflet-popup-tip {
+    background: None;
+    border: none;
+    box-shadow: none;
+  }
+
+  .custom-popup a.leaflet-popup-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    font: 16px/24px Tahoma, Verdana, sans-serif;
+    color: #bcc6ed;
+    text-decoration: none;
+    background: transparent;
+    
+}
+
+
+
+  .custom-popup a:hover.leaflet-popup-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    font: 16px/24px Tahoma, Verdana, sans-serif;
+    color: #8997c8;
+    text-decoration: none;
+    background: transparent;
+   
+}
+
+
+.form-group {
+    display: flex;
+}
+#savebut {
+  position: relative;
+margin-top: 10px;}  
+
+
+#lailab {
+  position: relative;
+margin-top: 10px;}  
+
+#lai {
+    position: relative;
+    left: 22px;
+  margin-top: 10px;}  
+#stam_hoogte{
+    position: relative;
+    left: 18px;} 
+#kroon_diameter {
+    position: relative;
+    left: 12px;}  
+#kroon_hoogte {
+  position: relative;
+  left: 22px;}  
+
+#shaduwtijd {
+  position: relative;
+  left: 55px;}  
+
+  
+
+
+    /* 
+
+    x_y_rd_amersfoort
+    x_y_wgs_84
+    adres_conform_woz_
+
+    controlemeter_groen
+    
+    
+    controlemeter_grijs
+    
+    
+    
+    onderhoudspartij
+    onderhoudscontract
+    bank
+    iv_er */
