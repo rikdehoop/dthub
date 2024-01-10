@@ -1,1 +1,0 @@
-output na transformatie data
